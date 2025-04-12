@@ -1,71 +1,102 @@
-# Ecommerce_Web
+# SampurnaBazaar - E-commerce Web Application
 
-🛍️ SampurnaBazaar – E-commerce Platform
-📌 Description
-SampurnaBazaar is a multi-vendor e-commerce platform where users can browse products, add them to their cart, and make purchases. Vendors can log in to manage their product listings.
+## Introduction
+SampurnaBazaar is a fully functional e-commerce web application designed for both vendors and customers. It allows vendors to manage product listings and customers to browse, filter, and purchase products. This project simulates the end-to-end shopping experience from signup/login to checkout. Built with a clean UI and interactive features, the application demonstrates key front-end development concepts and integrates Firebase Realtime Database for backend services. User authentication and session management are handled using local storage.
 
-🚀 Features
-🔐 Login/Signup system for Users and Vendors
+## Project Type
+Frontend
 
-🛒 Add to Cart and View Cart with quantity
+## Deployed App
+Frontend: [https://joyful-syrniki-5cca89.netlify.app](https://joyful-syrniki-5cca89.netlify.app)
 
-📦 Product listing by vendors
-
-✏️ Edit/Delete product (vendors only)
-
-📁 Firebase Realtime Database integration
-
-📱 Responsive design for all devices
-
-🧑‍💻 Tech Stack
-Frontend: HTML, CSS, JavaScript
-
-Backend/Database: Firebase Realtime Database
-
-Deployment: Netlify
-
-🔧 How to Use
-Clone the repo:
-
-git clone https://github.com/sachinkumanache/Ecommerce_Web.git
-
-Open index.html in your browser or use Live Server in VS Code.
-
-Create a Firebase project and update Firebase endpoints in your JS files.
-
-✅ Live Demo
-🔗 [SampurnaBazaar Live Site](https://charming-moonbeam-632fe7.netlify.app/)
-
-📁 Folder Structure
-
+## Directory Structure
 ```
-📦 Ecommerce Web/
-├── 📁 pages/
-│ ├── cart.html
-│ ├── checkout.html
-│ ├── log.html
-│ ├── signup.html
-│ └── vendersDashboard.html
-│
-├── 📁 src/
-│ ├── checkout.js
-│ ├── log.js
-│ ├── signup.js
-│ ├── vendersDashboard.js
-│ └── index.js
-│
-├── 📁 style/
-│ ├── checkout.css
-│ ├── log.css
-│ ├── signup.css
-│ ├── vendersDashboard.css
-│ └── style.css
-│
+Ecommerce Web/
+├── pages/
+│   ├── cart.html
+│   ├── checkout.html
+│   ├── log.html
+│   ├── signup.html
+│   └── vendersDashboard.html
+├── src/
+│   ├── checkout.js
+│   ├── log.js
+│   ├── signup.js
+│   ├── vendersDashboard.js
+│   └── index.js
+├── style/
+│   ├── checkout.css
+│   ├── log.css
+│   ├── signup.css
+│   ├── vendersDashboard.css
+│   └── style.css
 ├── index.html
-└── README.md```
+└── README.md
+```
 
-✍️ Author
-Name: Sachin Pundalik Kumanache
+## Video Walkthrough of the project
+[YouTube Link to Project Demo (1-3 mins)](https://youtube.com/your-demo-link)
 
-GitHub:👤 [sachinkumanache](https://github.com/sachinkumanache)
+## Video Walkthrough of the codebase
+[YouTube Link to Codebase Explanation (1-5 mins)](https://youtube.com/your-codebase-link)
+
+## Features
+- User and Vendor SignUp/Login using local storage
+- Vendor dashboard to manage products (Add/Edit/Delete)
+- Product listing with filtering by category, price, and rating
+- Cart functionality with item count
+- Responsive design with sticky navbar and pagination
+- Checkout page to collect address and payment details
+- Real-time product and cart data stored in Firebase Realtime Database
+
+## Design Decisions or Assumptions
+- Firebase Realtime Database was chosen for simplicity and real-time capabilities
+- Local storage used for authentication instead of Firebase Auth
+- Role-based navigation: vendors access dashboard, users browse and shop
+- Minimal and user-friendly UI focused on functionality
+
+## Installation & Getting started
+Clone the repository and run using any local live server extension:
+```bash
+git clone https://github.com/sachinkumanache/sampurna-bazaar.git
+cd sampurna-bazaar
+Open index.html using Live Server
+```
+
+## Usage
+1. Go to Signup page and register as User or Vendor
+2. Login to get redirected based on your role
+3. Browse products, add to cart
+4. Checkout and fill your details to complete the order
+
+## Credentials
+Vendor:
+- Name: sachin_Traders
+- Email: (You may use any valid email)
+- Password: vendor123
+
+User:
+- Email: user@gmail.com
+- Password: user123
+
+## APIs Used
+- Firebase Realtime Database
+
+## API Endpoints
+- `https://ecommerce-30871-default-rtdb.asia-southeast1.firebasedatabase.app/Product.json` - Products API
+- `https://ecommerce-30871-default-rtdb.asia-southeast1.firebasedatabase.app/Cart.json` - Cart API
+
+## Technology Stack
+- HTML, CSS, JavaScript
+- Firebase Realtime Database
+- Local Storage (for authentication)
+- Netlify (Deployment)
+- GitHub (Version Control)
+
+## Collaboration & Timeline
+- This project was completed in 4 days.
+- Tools used: GitHub (version control & collaboration), Zoom (team meetings), YouTube (video presentation)
+
+---
+> Built by Sachin Kumanache and team
 
