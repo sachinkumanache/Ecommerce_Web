@@ -37,7 +37,8 @@ Create a Firebase project and update Firebase endpoints in your JS files.
 
 📁 Folder Structure
 
-```📦 Ecommerce Web/
+```
+📦 Ecommerce Web/
 ├── 📁 pages/
 │ ├── cart.html
 │ ├── checkout.html
@@ -65,4 +66,5 @@ Create a Firebase project and update Firebase endpoints in your JS files.
 ✍️ Author
 Name: Sachin Pundalik Kumanache
 
-GitHub: @sachinkumanache
+GitHub:👤 [sachinkumanache](https://github.com/sachinkumanache)
+
