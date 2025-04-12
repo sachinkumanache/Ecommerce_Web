@@ -26,6 +26,7 @@ Deployment: Netlify
 
 🔧 How to Use
 Clone the repo:
+
 git clone https://github.com/sachinkumanache/Ecommerce_Web.git
 
 Open index.html in your browser or use Live Server in VS Code.
