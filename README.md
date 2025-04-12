@@ -7,8 +7,7 @@ SampurnaBazaar is a fully functional e-commerce web application designed for bot
 Frontend
 
 ## Deployed App
-Frontend: [https://joyful-syrniki-5cca89.netlify.app](https://joyful-syrniki-5cca89.netlify.app)
-
+Frontend: https://charming-moonbeam-632fe7.netlify.app/
 ## Directory Structure
 ```
 Ecommerce Web/
@@ -35,10 +34,10 @@ Ecommerce Web/
 ```
 
 ## Video Walkthrough of the project
-[YouTube Link to Project Demo (1-3 mins)](https://youtube.com/your-demo-link)
+[YouTube Link to Project Demo (1-3 mins)](https://drive.google.com/file/d/15FHqQjZ-Jlb4ECNNo9rd-j7byYeW7aUj/view?usp=sharing)
 
 ## Video Walkthrough of the codebase
-[YouTube Link to Codebase Explanation (1-5 mins)](https://youtube.com/your-codebase-link)
+[YouTube Link to Codebase Explanation (1-5 mins)](https://drive.google.com/file/d/15FHqQjZ-Jlb4ECNNo9rd-j7byYeW7aUj/view?usp=sharing)
 
 ## Features
 - User and Vendor SignUp/Login using local storage
@@ -58,8 +57,8 @@ Ecommerce Web/
 ## Installation & Getting started
 Clone the repository and run using any local live server extension:
 ```bash
-git clone https://github.com/sachinkumanache/sampurna-bazaar.git
-cd sampurna-bazaar
+git clone https://github.com/sachinkumanache/Ecommerce_Web.git
+cd Ecommerce_Web
 Open index.html using Live Server
 ```
 
@@ -95,8 +94,8 @@ User:
 
 ## Collaboration & Timeline
 - This project was completed in 4 days.
-- Tools used: GitHub (version control & collaboration), Zoom (team meetings), YouTube (video presentation)
+- Tools used: GitHub (version control & collaboration), Zoom (video presentation)
 
 ---
-> Built by Sachin Kumanache and team
+> Built by Sachin Kumanache 
 
