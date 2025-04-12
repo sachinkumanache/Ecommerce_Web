@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecomm Navbar</title>
+    <link rel="stylesheet" href="../style/cart.css" />
+    <script
+      src="https://kit.fontawesome.com/08d390c7c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><a href="../index.html">SampurnaBazaar</a></div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./vendersDashboard.html">Vendor Dashboard</a></li>
+        <li>
+          <a href="./cart.html" class="cart-icon"
+            >Cart
+            <i class="fa fa-shopping-cart"></i>
+            <span id="cartCount">0</span>
+          </a>
+        </li>
+        <!-- <li><a href="./Pages/signup.html">Signup</a></li> -->
+        <li>
+          <a href="./log.html" id="logInUser" onclick="loggedOut()">loggedIn</a>
+        </li>
+        <li id="userName"><a href="">userName</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <main class="main-container">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <div class="cart-summary">
+          <h2>Total Amount: ₹<span id="total">0</span></h2>
+          <button id="Buybtn">Buy All</button>
+        </div>
+      </div>
+
+      <section class="card-container" id="userCart"></section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>SampurnaBazaar</h3>
+          <p>Your one-stop shop for quality products and fast delivery.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./cart.html">Cart</a></li>
+            <li><a href="./signup.html">Signup</a></li>
+            <li><a href="./log.html">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: support@sampurnabazaar.com</p>
+          <p>Phone: +91 9876543210</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 SampurnaBazaar | All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="../src/cart.js"></script>

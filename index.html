@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecomm Navbar</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/08d390c7c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><a href="./index.html">SampurnaBazaar</a></div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Pages/vendersDashboard.html">Vendor Dashboard</a></li>
+        <li>
+          <a href="./Pages/cart.html" class="cart-icon"
+            >Cart
+            <i class="fa fa-shopping-cart"></i>
+            <span id="cartCount">0</span>
+          </a>
+        </li>
+        <!-- <li><a href="./Pages/signup.html">Signup</a></li> -->
+        <li>
+          <a href="./Pages/log.html" id="logInUser" onclick="loggedOut()"
+            >loggedIn</a
+          >
+        </li>
+        <li id="userName"><a href="">userName</a></li>
+      </ul>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <main class="main-container">
+      <section class="filters">
+        <select id="categoryFilter">
+          <option value="">All Categories</option>
+          <option value="womens">womens</option>
+          <option value="natural">natural</option>
+          <option value="food">food</option>
+          <option value="mens">mens</option>
+          <option value="electronics">electronics</option>
+        </select>
+
+        <select id="priceFilter">
+          <option value="">All Prices</option>
+          <option value="0-500">Below ₹500</option>
+          <option value="500-1000">₹500 - ₹1000</option>
+          <option value="1000-5000">₹1000 - ₹5000</option>
+        </select>
+
+        <select id="ratingFilter">
+          <option value="">All Ratings</option>
+          <option value="4">4★ & above</option>
+          <option value="3">3★ & above</option>
+          <option value="2">2★ & above</option>
+        </select>
+      </section>
+
+      <section class="card-container" id="productCards"></section>
+
+      <div class="pagination" id="paginationControls"></div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>SampurnaBazaar</h3>
+          <p>Your one-stop shop for quality products and fast delivery.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Pages/cart.html">Cart</a></li>
+            <li><a href="./Pages/signup.html">Signup</a></li>
+            <li><a href="./Pages/log.html">Login</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: support@sampurnabazaar.com</p>
+          <p>Phone: +91 9876543210</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 SampurnaBazaar | All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script src="./src/index.js"></script>
